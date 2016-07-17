@@ -1,0 +1,137 @@
+.container-fluid {
+	padding-top:20px;
+	background-color: black;
+	padding-bottom: 20px;
+	margin-bottom: 60px;
+}
+.container {
+	background-color: white;
+}
+a:-webkit-any-link {
+	text-decoration: none !important;
+}
+.MyName {
+	font-size: 25px;
+	color:white;
+}
+.MyAttributes {
+	font-size: 15px;
+	color:white;
+}
+.MyDescription {
+	color:white;
+	font-size: 15px;
+}
+.Version {
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.img-rounded {
+	margin-top: 15px;	
+	margin-bottom:30px;
+}
+.AboutMe {
+	font-size: 18px;
+	color:black;
+	margin-top: 10px;
+	display: inline-block;
+}
+.Hey {
+	margin-top: 5px;
+	display: inline-block;
+}
+.FirstPara {
+	margin-top: 5px;
+	display: inline-block;
+}
+.SecondPara {
+	margin-top: 5px;
+	display: inline-block;
+}
+.ThirdPara {
+	margin-top: 5px;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+body {
+	background-color: #D3D3D3;
+}
+
+.ContactMeHeader {
+	font-size:25px;
+	padding-top:25px;
+	display: inline-block;
+}
+.ContactText {
+	font-size:15px;
+	margin-top:25px;
+	display: inline-block;
+}
+.EmailId {
+	margin-top:10px;
+	display: inline-block;
+}
+.ProjectHeader {
+	font-size:16px;
+	font-weight:bold;
+	margin-top:40px;
+	display: inline-block;
+}
+.Duration {
+	font-style:italic;
+	font-size:14px;
+	margin-top:40px;
+	display: inline-block;
+}
+.ProjectDescription {
+	margin-top:10px;
+	display: inline-block;
+	margin-left:30px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+.TechnologiesHeader {
+	font-weight:bold;
+	display: inline-block;
+	margin-left:5px;
+	margin-top:5px;
+	font-family: "Courier New", Courier, monospace;
+	
+}
+.ResearchHeader {
+	font-size:16px;
+	font-weight:bold;
+	margin-top:40px;
+	display: inline-block;
+}
+
+.TechnologiesData {
+	font-family: "Courier New", Courier, monospace;
+}
+.Technologies {
+	border: solid grey;
+	margin-top:10px;
+	border-radius: 5px;
+	border-width:1px;
+}
+.view {
+	margin-bottom:60px;
+}
+.Version {
+	font-size:12px;
+	display: inline-block;
+	margin-left:40%;
+	margin-top:20px;
+}
+.ResearchAbstract {
+	display: inline-block;
+	margin-top:20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+.Link {
+	display: inline-block;
+	margin-top:20px;
+	
+}

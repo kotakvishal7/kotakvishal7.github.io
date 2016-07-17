@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Vishal Kotak | Personal Website
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel = "shortcut icon" href="images/vsk.png">
+		<script src = "scripts/jquery-1.11.3.min.js"></script>
+		<script src="scripts/bootstrap.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+		<script src="scripts/angular-ui-router.min.js"></script>
+		<script src="scripts/app.js"></script>
+	</head>
+	<body ng-app="vishalApp">
+
+		<div class=" wrapper container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2">
+					<a ui-sref="about"><span class="MyName">Vishal Sanjiv Kotak </span></a>
+				</div>
+<!-- 				<div class="col-sm-1">
+					<a href="index.html"><span class="MyAttributes">About Me</span></a>
+				</div> -->
+				<div class="col-sm-1">
+					<a ui-sref="resume"><span class="MyAttributes">Resume</span></a>
+				</div>
+				<div class="col-sm-1">
+					<a ui-sref="portfolio"><span class="MyAttributes">Portfolio</span></a>
+				</div>
+				<div class="col-sm-1">
+					<a ui-sref="research"><span class="MyAttributes">Research</span></a>
+				</div>
+				<div class="col-sm-1">
+					<a ui-sref="contact"><span class="MyAttributes">Contact Me</span></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2">
+					<span class="MyDescription"> Aspiring Computer Programmer</span>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div ui-view class="view"></div>
+		</div>
+		<footer  class="footer">
+			<span class="Version">Version 1.0.0 | Vishal Sanjiv Kotak | All rights reserved</span>
+		</footer>
+
+	</body>
+</html>
