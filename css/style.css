@@ -4,18 +4,18 @@
 	padding-bottom: 20px;
 	margin-bottom: 60px;
 }
+a:-webkit-any-link {
+	text-decoration: none;
+}
 .container {
 	background-color: white;
 }
-a:-webkit-any-link {
-	text-decoration: none !important;
+.MyAttributes {
+	font-size: 15px;
+	color:white;
 }
 .MyName {
 	font-size: 25px;
-	color:white;
-}
-.MyAttributes {
-	font-size: 15px;
 	color:white;
 }
 .MyDescription {
@@ -41,23 +41,9 @@ a:-webkit-any-link {
 	margin-top: 5px;
 	display: inline-block;
 }
-.FirstPara {
-	margin-top: 5px;
-	display: inline-block;
-}
-.SecondPara {
-	margin-top: 5px;
-	display: inline-block;
-}
-.ThirdPara {
-	margin-top: 5px;
-	display: inline-block;
-	padding-bottom: 30px;
-}
 body {
 	background-color: #D3D3D3;
 }
-
 .ContactMeHeader {
 	font-size:25px;
 	padding-top:25px;
@@ -84,10 +70,15 @@ body {
 	margin-top:40px;
 	display: inline-block;
 }
+.DurationResearch {
+	font-style:italic;
+	font-size:14px;
+	margin-top:40px;
+	display: inline-block;
+}
 .ProjectDescription {
 	margin-top:10px;
 	display: inline-block;
-	margin-left:30px;
 	text-align: justify;
     text-justify: inter-word;
 }
@@ -130,8 +121,8 @@ body {
 	text-align: justify;
     text-justify: inter-word;
 }
-.Link {
-	display: inline-block;
-	margin-top:20px;
-	
+object {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 10px;
 }
