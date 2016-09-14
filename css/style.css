@@ -9,10 +9,12 @@ a:-webkit-any-link {
 }
 .container {
 	background-color: white;
+	padding-bottom: 20px;
 }
 .MyAttributes {
 	font-size: 15px;
 	color:white;
+	font-weight: bold;
 }
 .MyName {
 	font-size: 25px;
@@ -31,18 +33,8 @@ a:-webkit-any-link {
 	margin-top: 15px;	
 	margin-bottom:30px;
 }
-.AboutMe {
-	font-size: 18px;
-	color:black;
-	margin-top: 10px;
-	display: inline-block;
-}
-.Hey {
-	margin-top: 5px;
-	display: inline-block;
-}
 body {
-	background-color: #D3D3D3;
+	background-color: #D3D3D2;
 }
 .ContactMeHeader {
 	font-size:25px;
@@ -61,53 +53,20 @@ body {
 .ProjectHeader {
 	font-size:16px;
 	font-weight:bold;
-	margin-top:40px;
-	display: inline-block;
-}
-.Duration {
-	font-style:italic;
-	font-size:14px;
-	margin-top:40px;
-	display: inline-block;
-}
-.DurationResearch {
-	font-style:italic;
-	font-size:14px;
-	margin-top:40px;
+	margin-top:30px;
 	display: inline-block;
 }
 .ProjectDescription {
-	margin-top:10px;
+	margin-top:5px;
 	display: inline-block;
 	text-align: justify;
     text-justify: inter-word;
 }
-.TechnologiesHeader {
-	font-weight:bold;
-	display: inline-block;
-	margin-left:5px;
-	margin-top:5px;
-	font-family: "Courier New", Courier, monospace;
-	
-}
 .ResearchHeader {
 	font-size:16px;
 	font-weight:bold;
-	margin-top:40px;
 	display: inline-block;
-}
-
-.TechnologiesData {
-	font-family: "Courier New", Courier, monospace;
-}
-.Technologies {
-	border: solid grey;
-	margin-top:10px;
-	border-radius: 5px;
-	border-width:1px;
-}
-.view {
-	margin-bottom:60px;
+	margin-top: 20px;
 }
 .Version {
 	font-size:12px;
@@ -117,12 +76,26 @@ body {
 }
 .ResearchAbstract {
 	display: inline-block;
-	margin-top:20px;
 	text-align: justify;
     text-justify: inter-word;
-}
+    margin-top: 10px;
+ }
+ .Link {
+ 	display: inline-block;
+ 	margin-bottom: 20px;
+ }
 object {
 	margin-top: 50px;
-	margin-left: 100px;
+	margin-left: 200px;
 	margin-bottom: 10px;
+}
+.AboutText {
+	margin-top: 10px;
+	display: inline-block;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.img-circle {
+	display: inline-block;
+	margin-top: 20px;
 }
