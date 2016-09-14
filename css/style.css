@@ -37,16 +37,19 @@ body {
 	font-size:25px;
 	padding-top:25px;
 	display: inline-block;
+	font-family: Tahoma;
 }
 .ContactText {
 	font-size:15px;
 	margin-top:25px;
 	display: inline-block;
+	font-family: Tahoma;
 }
 .EmailId {
 	margin-top:10px;
 	display: inline-block;
 	color: #0274B3;
+	font-family: Tahoma;
 }
 .ProjectHeader {
 	font-size:16px;
@@ -87,6 +90,7 @@ body {
  	display: inline-block;
  	margin-bottom: 20px;
  	font-family: Tahoma;
+ 	color: #0274B3;
  }
 object {
 	margin-top: 50px;
@@ -94,7 +98,6 @@ object {
 	margin-bottom: 10px;
 }
 .AboutText {
-	margin-top: 10px;
 	display: inline-block;
 	text-align: justify;
 	text-justify: inter-word;
