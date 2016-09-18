@@ -119,3 +119,10 @@ a:hover {
 a:-webkit-any-link {
 	text-decoration: none;
 }
+canvas {
+	margin-right: 5%;
+	margin-left: 4%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: #eee;
+}

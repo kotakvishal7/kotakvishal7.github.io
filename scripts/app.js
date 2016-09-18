@@ -5,17 +5,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/about');
     
     $stateProvider
-        
-        // HOME STATES AND NESTED VIEWS ========================================
         .state('about', {
             url: '/about',
             templateUrl: 'templates/about.html'
         })
-        
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
         .state('resume', {
             url: '/resume',
-            templateUrl: 'templates/resume.html'            // we'll get to this in a bit       
+            templateUrl: 'templates/resume.html'                
         })
 		
 		.state('portfolio' , {
@@ -31,6 +27,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		.state('research' , {
 			url:'/research',
 			templateUrl: 'templates/research.html'
+		})
+		.state('game', {
+			url: '/game',
+			templateUrl: 'templates/game.html'
 		});
         
 });
