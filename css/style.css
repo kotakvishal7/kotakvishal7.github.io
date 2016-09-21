@@ -6,8 +6,8 @@
 }
 .container {
 	background-color: white;
-	padding-bottom: 20px;
-}
+	/*padding-bottom: 20px;
+*/}
 .MyAttributes {
 	font-size: 15px;
 	color:white;
@@ -20,6 +20,9 @@
 .MyDescription {
 	color:white;
 	font-size: 15px;
+}
+.about {
+	margin-bottom: 10px;
 }
 .Version {
 	font-size: 10px;
