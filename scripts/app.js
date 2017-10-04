@@ -27,10 +27,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		.state('research' , {
 			url:'/research',
 			templateUrl: 'templates/research.html'
-		})
-		.state('game', {
-			url: '/game',
-			templateUrl: 'templates/game.html'
 		});
+		//.state('game', {
+		//	url: '/game',
+		//	templateUrl: 'templates/game.html'
+		//});
         
 });
