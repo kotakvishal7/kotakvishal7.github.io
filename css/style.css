@@ -19,6 +19,9 @@ a:hover {
 .work-experience-description {
 	margin-top: 8px;
 }
+.education-item {
+	margin-top: 15px;
+}
 .attributes {
 	text-align: center;
 }
@@ -31,10 +34,20 @@ a:hover {
 .research-item {
 	margin-top: 15px;
 }
+#work {
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: white;
+}
+#education {
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: #DCDCDC;
+}
 #research {
 	padding-top:50px;
 	padding-bottom:50px;
-	background-color: #BCB8B8;
+	background-color: #DCDCDC;
 }
 #projects {
 	padding-top:50px;
@@ -44,4 +57,15 @@ a:hover {
 #courses {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+#contact {
+	background-color: #DCDCDC;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mobile-number {
+	margin-bottom: 20px;
+}
+.contact-methods {
+	margin-bottom: 30px;
 }
