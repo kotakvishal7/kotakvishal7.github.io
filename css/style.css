@@ -108,3 +108,125 @@ a:hover {
 .contact-methods {
 	margin-bottom: 30px;
 }
+#javaProgress {
+	width: 100%;
+	background-color: white;
+}
+#javaBar {
+	width: 70%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#csharpProgress {
+	width: 100%;
+	background-color: white;
+}
+#csharpBar {
+	width: 60%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#pythonProgress {
+	width: 100%;
+	background-color: white;
+}
+#pythonBar {
+	width: 40%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#htmlProgress {
+	width: 100%;
+	background-color: white;
+}
+#htmlBar {
+	width: 90%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#cssProgress {
+	width: 100%;
+	background-color: white;
+}
+#cssBar {
+	width: 90%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#jsProgress {
+	width: 100%;
+	background-color: white;
+}
+#jsBar {
+	width: 70%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#angularProgress {
+	width: 100%;
+	background-color: white;
+}
+#angularBar {
+	width: 60%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#swiftProgress {
+	width: 100%;
+	background-color: white;
+}
+#swiftBar {
+	width: 10%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#androidProgress {
+	width: 100%;
+	background-color: white;
+}
+#androidBar {
+	width: 60%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+#sqldProgress {
+	width: 100%;
+	background-color: white;
+}
+#sqlBar {
+	width: 60%;
+	height: 15px;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+}
+.skill-item {
+	margin-top: 15px;
+}
+.skill {
+	font-size: 15px;
+}
+.footer {
+	font-size: 10px;
+	font-family: Helvetica;
+	text-align: center;
+
+}
