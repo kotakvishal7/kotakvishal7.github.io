@@ -8,41 +8,292 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel = "shortcut icon" href="images/vsk.png">
-	</head>
-	<body ng-app="vishalApp">
-		<div class=" wrapper container-fluid">
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2">
-					<a ui-sref="about"><span class="MyName">Vishal Sanjiv Kotak</span></a>
-				</div>
-<!-- 				<div class="col-sm-1">
-					<a ui-sref="resume">RESUME</a>
-				</div> -->
-				<div class="col-sm-1">
-					<a ui-sref="portfolio">PORTFOLIO</a>
-				</div>
-				<div class="col-sm-1">
-					<a ui-sref="research">RESEARCH</a>
-				</div>
-				<div class="col-sm-1">
-					<a ui-sref="contact">CONTACT</a>
-				</div>
-				<!--<div class="col-sm-1">
-					<a ui-sref="game">FUN</a>
-				</div>-->
-			</div>
-		</div>
-		<div class="container">
-			<div ui-view class="view"></div>
-		</div>
-		<footer  class="footer">
-			<span class="Version">Version 1.0.2 | Vishal Sanjiv Kotak | All rights reserved</span>
-		</footer>
 		<script src = "scripts/jquery-1.11.3.min.js"></script>
 		<script src="scripts/bootstrap.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
-		<script src="scripts/angular-ui-router.min.js"></script>
-		<script src="scripts/app.js"></script>
+	</head>
+	<body>
+		<div class = "container-fluid">
+			<div class = "me">
+				<div class = "row">
+					<div class = "col-xs-10 col-xs-offset-2">
+						<h1 class = "name">Vishal Sanjiv Kotak</h1>
+					</div>
+				</div>
+				<div class = "row"> 
+					<div class = "col-xs-10 col-xs-offset-2">
+						<h4 class = "degree">Masters in Computer Science</h4>
+					</div>
+				</div>
+				<div class = "row factors">
+					<div class = "col-xs-10 col-xs-offset-2">
+						<a href="#work" class = "btn">Work </a>
+						<a href="#projects" class = "btn">Projects</a>
+						<a href="#research" class = "btn">Research</a>
+						<a href="#courses" class = "btn">Courses</a>
+						<a href="#contact" class = "btn">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "work">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-xs-12 attributes">
+						<label class = "vishal-attributes">Work Experience</label>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Junior System Administrator</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">June 2016 - January 2017</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "http://www.ccis.northeastern.edu" target="_blank"><span class = "company-link">Northeastern University</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">September 2017- Present</span>
+					</div>
+				</div>
+				<div class = "row work-experience-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Create dashboards and write scripts for desktop and server maintenance for the Computer Science department</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Systems Analyst</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">January 2017 -</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "https://www.fidelity.com" target="_blank"><span class = "company-link">Fidelity Investments</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">September 2017</span>
+					</div>
+				</div>
+				<div class = "row work-experience-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Developed models for detection of excessive cash advances, potential foreign fighters and offshore gambling transactions</li>
+							<li>Designed customer risk ranking web application to rank 40 million accounts considering various attributes such as transaction activity and location, providing real-time updates for risk mitigation</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Research Assistant</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">April 2016 -</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "http://www.ccis.northeastern.edu" target="_blank"><span class = "company-link">Northeastern University</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">June 2016</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-12 work-experience-description">
+						<ul>
+							<li>Developed an Android application in a three-person team to integrate visual recognition algorithms on images</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Masters Assistant</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">January 2016 -</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "http://www.ccis.northeastern.edu" target="_blank"><span class = "company-link">Northeastern University</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">April 2016</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-12 work-experience-description">
+						<ul>
+							<li>Tutored students and graded submissions of 300 students for Logic and Computation (CS 2800) course</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Software Developer</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">July 2015 -</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "http://tssconsultancy.com/" target="_blank"><span class = "company-link">TSS Consultancy Pvt. Ltd.</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">December 2015</span>
+					</div>
+				</div>
+				<div class = "row work-experience-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Developed web applications using ASP.NET C#, SQL Server for multiple mutual fund clients including, exchange traded fund</li>
+							<li>Increased efficiency by 30 percent by implementing server-side updates using SignalR for revenue and profit calculation</li>
+							<li>Designed dashboards with graphs using Highcharts.js and Angular.js for client in the fitness and financial domain</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row work-experience-item">
+					<div class = "col-xs-6">
+						<span class = "pull-left"><b>Associate Software Engineer</b></span>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">September 2014 -</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-6">
+						<a href = "http://accenture.com/" target="_blank"><span class = "company-link">Accenture Services Pvt. Ltd.</span></a>
+					</div>
+					<div class = "col-xs-6">
+						<span class = "pull-right">July 2015</span>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Worked towards implementation of modules like Revenue Generation, Profit Calculation within the Commercial Project Management module and Temporary to Permanent Employee Transformation within the Multi-Resource Scheduling of Project Systems module in SAP using Advanced Business Application Programming (ABAP)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "projects">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-xs-12 attributes">
+						<label class = "vishal-attributes">Projects</label>
+					</div>
+				</div>
+				<div class = "row project-item">
+					<div class = "col-xs-12">
+						<span><b>Website Application Maker(MEAN)</b><span>
+						<a href = "https://github.com/kotakvishal7/webdev-kotak-vishalsanjiv" target="_blank"><span class = "glyphicon glyphicon-share-alt"></span></a>
+					</div>
+				</div>
+				<div class = "row project-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Developed a MEAN (MongoDB 3.4, Express, Angular 4 and Node 8.7) stack web application for users that helps them build websites</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row project-item">
+					<div class = "col-xs-12">
+						<span><b>Diabetic Patient Readmission Application(Java)</b><span>
+						<a href = "./papers/datamining.pdf" target="_blank"><span class = "glyphicon glyphicon-share-alt"></span></a>
+					</div>
+				</div>
+				<div class = "row project-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Created algorithms using Java to predict Diabetic patient readmission after being discharged, by exploring a real-world dataset which presents ten years (1999 - 2008) of clinical care data at 130 hospitals</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row project-item">
+					<div class = "col-xs-12">
+						<span><b>Media Liscencig Lab(Java, Angular 1.x, MySQL)</b><span>
+						<a href = "https://github.com/akhil0/MLL" target="_blank"><span class = "glyphicon glyphicon-share-alt"></span></a>
+					</div>
+				</div>
+				<div class = "row project-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Developed a web application for musicians to upload their content and showcase their talent to community of users interested in music</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row project-item">
+					<div class = "col-xs-12">
+						<span><b>MS Pacman(Java)</b><span>
+					</div>
+				</div>
+				<div class = "row project-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Implemented algorithms like Graph Search, Local Search, Genetic, Evolutionary Strategy, Adversarial Search and Neural Networks with Perceptron for Pacman and Ghosts in MS Pacman framework - Java and compared algorithm performance</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "research">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-xs-12 attributes">
+						<label class = "vishal-attributes">Research</label>
+					</div>
+				</div>
+				<div class = "row research-item">
+					<div class = "col-xs-12">
+						<span><b>Ontology-based Context-Aware Application(Android)</b></span>
+						<a href = "./papers/OntologyApplication.pdf" target="_blank"><span class = "glyphicon glyphicon-share-alt"></span></a>
+					</div>
+				</div>
+				<div class = "row research-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Designed a location and reach-based recommender system for Android that provided the user with listed recommendations (regarding places such as restaurants, cinemas, etc.) drawn up based on their previous experiences. Integrated Ontology with Android application using Protégé, Androjena API, and MySQL database</li>
+						</ul>
+					</div>
+				</div>
+				<div class = "row research-item">
+					<div class = "col-xs-12">
+						<span><b>Mode Manager Mobile Application(Android)</b></span>
+						<a href = "./papers/ModeManager.pdf" target="_blank"><span class = "glyphicon glyphicon-share-alt"></span></a>
+					</div>
+				</div>
+				<div class = "row research-description">
+					<div class = "col-xs-12">
+						<ul>
+							<li>Conceptualized an Android application that runs in the background to detect silent zones by using location tracker and automatically changes the profile of mobile to silent mode</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "courses">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-xs-12 attributes">
+						<label class = "vishal-attributes">Courses</label>
+					</div>
+				</div>
+				<li>
+					<img alt="Parallel Data Processing" src="images/mr.png"><div class="overlay animated fadeIn"><span class="animated bounceIn">
+					<i class="fa fa-link"></i> Parallel Data Processing in Map Reduce and Spark</span></div>
+				</li>
+			</div>
+		</div>
 	</body>
 </html>

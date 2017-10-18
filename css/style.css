@@ -1,131 +1,47 @@
-.container-fluid {
-	padding-top:20px;
-	background-color: black;
-	padding-bottom: 20px;
-	margin-bottom: 60px;
+.name {
+	color: black;
 }
-.container {
-	background-color: white;
-	/*padding-bottom: 20px;
-*/}
-.MyAttributes {
-	font-size: 15px;
-	color:white;
-	font-weight: bold;
+.degree {
+	color: black;
 }
-.MyName {
-	font-size: 25px;
-	color:white;
-}
-.MyDescription {
-	color:white;
-	font-size: 15px;
-}
-.about {
-	margin-bottom: 10px;
-}
-.Version {
-	font-size: 10px;
-	text-align: center;
-	display: inline-block;
-}
-.img-rounded {
-	margin-top: 15px;	
-	margin-bottom:30px;
-}
-body {
-	background-color: #D3D3D2;
-}
-.ContactMeHeader {
-	font-size:25px;
-	padding-top:25px;
-	display: inline-block;
-	font-family: Tahoma;
-}
-.ContactText {
-	font-size:15px;
-	margin-top:25px;
-	display: inline-block;
-	font-family: Tahoma;
-}
-.EmailId {
-	margin-top:10px;
-	display: inline-block;
-	color: #0274B3;
-	font-family: Tahoma;
-}
-.ProjectHeader {
-	font-size:16px;
-	font-weight:bold;
-	margin-top:30px;
-	display: inline-block;
-	font-family: Tahoma;
-}
-.ProjectDescription {
-	margin-top:5px;
-	display: inline-block;
-	text-align: justify;
- 	font-family: Tahoma;
-    text-justify: inter-word;
-}
-.ResearchHeader {
-	font-size:16px;
-	font-weight:bold;
-	display: inline-block;
-	margin-top: 20px;
-	font-family: Tahoma;
-}
-.Version {
-	font-size:12px;
-	display: inline-block;
-	margin-left:40%;
-	margin-top:20px;
-	font-family: Tahoma;
-}
-.ResearchAbstract {
-	display: inline-block;
-	text-align: justify;
-    text-justify: inter-word;
-    margin-top: 10px;
-    font-family: Tahoma;
- }
- .Link {
- 	display: inline-block;
- 	margin-bottom: 20px;
- 	font-family: Tahoma;
- 	color: #0274B3;
- }
-object {
-	margin-top: 50px;
-	margin-left: 200px;
-	margin-bottom: 10px;
-}
-.AboutText {
-	display: inline-block;
-	text-align: justify;
-	text-justify: inter-word;
-	font-family: Tahoma;
-}
-.img-circle {
-	display: inline-block;
-	margin-top: 20px;
-}
-a{
+a {
 	text-decoration: none;
-	color: white;
-	font-family: Tahoma;
 }
 a:hover {
 	text-decoration: none;
-	color: red;
 }
-a:-webkit-any-link {
-	text-decoration: none;
+.me {
+	background-color: white;
 }
-canvas {
-	margin-right: 5%;
-	margin-left: 4%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	background-color: #eee;
+.work-experience-item{
+	margin-top: 15px;
+}
+.work-experience-description {
+	margin-top: 8px;
+}
+.attributes {
+	text-align: center;
+}
+.vishal-attributes {
+	font-size: 20px;
+}
+.project-item {
+	margin-top: 15px;
+}
+.research-item {
+	margin-top: 15px;
+}
+#research {
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: #BCB8B8;
+}
+#projects {
+	padding-top:50px;
+	padding-bottom:30px;
+	background-color: white;
+}
+#courses {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
