@@ -1,8 +1,12 @@
-.name {
-	color: black;
+.header {
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
-.degree {
-	color: black;
+.name {
+	color: white;
+	font-family: Helvetica;
+	font-size: 15px;
+	
 }
 a {
 	text-decoration: none;
@@ -10,8 +14,11 @@ a {
 a:hover {
 	text-decoration: none;
 }
-.me {
-	background-color: white;
+.btn {
+	color: white;
+}
+#about-me {
+	background-color: black;
 }
 .work-experience-item{
 	margin-top: 15px;
@@ -19,14 +26,40 @@ a:hover {
 .work-experience-description {
 	margin-top: 8px;
 }
+.work-position {
+	font-size: 22px;
+	font-family: Helvetica;
+	color: black;
+}
+.location {
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #404040;
+}
+.dates {
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #707070;
+}
 .education-item {
 	margin-top: 15px;
 }
 .attributes {
 	text-align: center;
 }
+.company-link {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #484848;
+}
+.description{
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #707070;
+}
 .vishal-attributes {
-	font-size: 20px;
+	font-size: 30px;
+	font-family: Helvetica;
 }
 .project-item {
 	margin-top: 15px;
@@ -42,12 +75,12 @@ a:hover {
 #education {
 	padding-top:50px;
 	padding-bottom:50px;
-	background-color: #DCDCDC;
+	background-color: #f4f4f4;
 }
 #research {
 	padding-top:50px;
 	padding-bottom:50px;
-	background-color: #DCDCDC;
+	background-color: #f4f4f4
 }
 #projects {
 	padding-top:50px;
@@ -59,7 +92,7 @@ a:hover {
 	padding-bottom: 50px;
 }
 #contact {
-	background-color: #DCDCDC;
+	background-color: #f4f4f4;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
