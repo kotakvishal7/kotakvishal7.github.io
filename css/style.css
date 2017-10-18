@@ -1,12 +1,25 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .header {
-	margin-top: 7px;
-	margin-bottom: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .name {
 	color: white;
 	font-family: Helvetica;
-	font-size: 15px;
+	font-size: 20px;
 	
+}
+.categories {
+	color: white;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+.email {
+	font-size: 20px;
+	color: white;
 }
 a {
 	text-decoration: none;
@@ -14,11 +27,8 @@ a {
 a:hover {
 	text-decoration: none;
 }
-.btn {
+.about-me {
 	color: white;
-}
-#about-me {
-	background-color: black;
 }
 .work-experience-item{
 	margin-top: 15px;
@@ -91,7 +101,7 @@ a:hover {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-#contact {
+#skills {
 	background-color: #f4f4f4;
 	padding-top: 50px;
 	padding-bottom: 50px;
