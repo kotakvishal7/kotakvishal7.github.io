@@ -87,21 +87,12 @@ a:hover {
 #research {
 	padding-top:50px;
 	padding-bottom:50px;
-	background-color: #f4f4f4
+	background-color: white;
 }
 #projects {
 	padding-top:50px;
 	padding-bottom:30px;
-	background-color: white;
-}
-#courses {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-#skills {
 	background-color: #f4f4f4;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 .mobile-number {
 	margin-bottom: 20px;
